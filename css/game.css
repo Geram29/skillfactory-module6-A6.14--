@@ -1,0 +1,55 @@
+body {
+	background-color: antiquewhite;
+}
+
+h1 {
+	text-align: center;
+	margin-top: 20px;
+	color: green;
+}
+
+h2 {
+	padding-top: 80px;
+	padding-bottom: 30px;
+	text-align: center;
+}
+
+h3 {
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+.grid-wrapper {
+	display: grid;
+	margin: 30px 0 10px 100px;
+	grid-template-columns: repeat(6, minmax(50px, 150px));
+	grid-template-rows: repeat(6, 80px);
+}
+
+.game-field {
+  background-color: orange;
+  min-height: 10vh;
+  margin: 1px 1px 1px 1px;
+  line-height: 10vh;
+}
+
+.target {
+  background-color: green;
+  color: white;
+  font-size: 24pt;
+  text-align: center;
+}
+
+.miss {
+  background-color: red;
+}
+
+#button-reload {
+	margin: 30px 0 0 115px;
+	font-size: 20px;
+	font-weight: bold;
+	padding-left: 18px;
+	padding-right: 18px;
+	border-width: 2px;
+}
+
